@@ -1,0 +1,60 @@
+.swap-form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.swap-title {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.swap-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.swap-label {
+  margin-bottom: 1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.swap-select,
+.swap-textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.swap-button {
+  background-color: #4b6cb7;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.swap-button:hover {
+  background-color: #3a539b;
+}
+
+.swap-message {
+  margin-top: 1rem;
+  color: green;
+  font-weight: 500;
+  text-align: center;
+}

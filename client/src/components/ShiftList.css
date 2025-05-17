@@ -1,0 +1,50 @@
+.shift-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.shift-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.shift-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.shift-table th,
+.shift-table td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.shift-table th {
+  background-color: #4b6cb7;
+  color: white;
+}
+
+.shift-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.shift-message {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.shift-error {
+  color: red;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
